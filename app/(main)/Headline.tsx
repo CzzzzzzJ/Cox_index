@@ -80,10 +80,9 @@ export function Headline() {
         }}
       >
         <Balancer>
-          我是 Cali，
-          <PeekabooLink href="https://zolplay.com">佐玩</PeekabooLink>
-          创始人，目前带领着佐玩致力于创造一个充满创造力的工作环境，同时鼓励团队创造影响世界的产品。
-          我热爱开发，设计，创新，享受生活，以及在未知领域中探索。
+          我们是CoXcommunity
+          致力于创造一个利用AIGC技术的创造力改变以往的工作环境，同时鼓励团队创造影响世界的产品。
+          我们热爱开发，设计，创新，享受生活，以及在未知AIGC领域中探索和进步。
         </Balancer>
       </motion.p>
       <motion.div
