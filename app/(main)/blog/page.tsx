@@ -8,14 +8,14 @@ import { BlogPosts } from './BlogPosts'
 const description =
   '这是我们最近在做的一些事，如果你有好的内容想要分享在这里，欢迎加入我们。'
 export const metadata = {
-  title: '我的博客',
+  title: '在做的事',
   description,
   openGraph: {
-    title: '我的博客',
+    title: '在做的事',
     description,
   },
   twitter: {
-    title: '我的博客',
+    title: '在做的事',
     description,
     card: 'summary_large_image',
   },
@@ -27,7 +27,7 @@ export default function BlogPage() {
     <Container className="mt-16 sm:mt-24">
       <header className="max-w-2xl">
         <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-          欢迎光临我的博客
+          我们在做干什么
         </h1>
         <p className="my-6 text-base text-zinc-600 dark:text-zinc-400">
           <Balancer>{description}</Balancer>

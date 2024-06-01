@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     default: seo.title,
   },
   description: seo.description,
-  keywords: 'Cali,CoXcommunity,郭晓楠,佐玩,创始人,CEO,开发者,设计师,细节控,创新',
+  keywords: 'CoXcommunity,曹子健，麦当，AIGC，mdldm',
   manifest: '/site.webmanifest',
   robots: {
     index: true,
