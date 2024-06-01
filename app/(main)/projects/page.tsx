@@ -3,9 +3,9 @@ import { type Metadata } from 'next'
 import { Projects } from '~/app/(main)/projects/Projects'
 import { Container } from '~/components/ui/Container'
 
-const title = '我的项目'
+const title = '我们的项目'
 const description =
-  '多年来，我一直在做各种各样的小项目，这里就是我筛选出来我觉得还不错的项目合集，也是我在技术领域中尝试和探索的最好见证。'
+  '我们一直在鼓捣着各种各样的小项目，这里就是我筛选出来我觉得还不错的AIGC项目合集，欢迎交流和夸奖'
 export const metadata = {
   title,
   description,
