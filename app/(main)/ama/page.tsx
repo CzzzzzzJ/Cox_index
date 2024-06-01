@@ -4,13 +4,13 @@ import Balancer from 'react-wrap-balancer'
 import { RichLink } from '~/components/links/RichLink'
 import { Container } from '~/components/ui/Container'
 
-import AlipayQR from './alipay-qr.jpg'
-import ThankYouLetterScreenshot1 from './Arc aagD26w9@2x.png'
-import ThankYouLetterScreenshot2 from './Arc ynleUdHy@2x.png'
+import AlipayQR from './alipay-qr.png'
+import WX_group from './微信截图_20240601182224.png'
+
 
 const title = 'AMA 一对一咨询'
 const description =
-  'Cali 提供一对一的咨询服务（Ask Me Anything）。我有前端开发、全栈开发、UI/UX 设计、创业经验、英语技能、美国留学与工作、内容创作等经验，可以为你解答相关的问题，我也支持纯英语沟通。'
+  '我们提供一对一的咨询服务（Ask Me Anything）。我们有非常丰富的AIGC创作经验、全栈开发、优化工作流设计、创业经验、自动化工作经验，内容创作等经验，可以为你解答相关的问题。'
 
 export const metadata = {
   title,
@@ -39,48 +39,31 @@ export default function AskMeAnythingPage() {
       </header>
 
       <article className="prose dark:prose-invert">
-        <h2>咨询内容</h2>
-        <p>我可以为你解答以下相关的问题：</p>
+        <h2>我们能提供什么？</h2>
+        <p>我们可以为你解答以下相关的问题：</p>
         <ul>
           <li>
-            <b>前端/全栈开发</b>
-            ：工作难找，或是寻求职场建议？想提升自己的工程师水平？还是想锐评
-            React vs Vue？
+            <b> AIGC创业咨询</b>
+            ：评估您的AIGC概念的可行性和市场潜力。选择合适的AI技术和工具，为您的解决方案提供动力。
           </li>
           <li>
-            <b>UI/UX 设计</b>：不知道如何开始学习设计？想提升自己的设计水平？
+            <b> MVP创建</b>：指导您开发最小可行产品（MVP），快速测试和迭代您的想法。
           </li>
           <li>
-            <b>创业经验</b>
-            ：我是
-            <RichLink href="https://zolplay.com" target="_blank">
-              佐玩
-            </RichLink>
-            的创始人，现在带领着团队帮助游戏开发者打造协同平台。
-          </li>
-          <li>
-            <b>英语技能</b>：英语能力不足，想提高自己的英语水平？想跟 Cali
-            一样可以{' '}
-            <RichLink
-              href="https://y.qq.com/n/ryqq/songDetail/003c0O9B3firAU"
-              favicon={false}
-              target="_blank"
-            >
-              英文说唱
-            </RichLink>
-            ？
+            <b>定制解决方案</b>
+            ：为您的企业量身定制AIGC解决方案，助力业务增长。
           </li>
           <li>
             <b>其他</b>
-            ：我的美国留学与工作经验，内容创作，音乐制作经验等等都可以帮助你解答一些其他的问题。
+            ：AIGC制作经验等等，都可以帮助你解答一些其他的问题。
           </li>
         </ul>
         <p>
-          你也可以全程跟我用英语聊，我也非常乐意，因为可能我的英语比中文说的要好。。。
+          你也可以选择和我们闲聊，我也非常乐意，因为可能我们真的是一群很有趣的人。。。
         </p>
 
         <h2>定价</h2>
-        <p>我的一对一咨询的价格为：</p>
+        <p>我们咨询的价格为：</p>
         <ul>
           <li>
             <strong>¥150 - 30分钟</strong>
@@ -96,30 +79,15 @@ export default function AskMeAnythingPage() {
             <span className="mt-1 text-sm font-medium">支付宝二维码</span>
           </span>
         </p>
-        <p>
-          一旦你完成支付，通过{' '}
-          <RichLink
-            href="https://cal.com/calicastle/ask-me-anything"
-            target="_blank"
-          >
-            这个链接
-          </RichLink>
-          来跟我预约一个合适你的时间。
-        </p>
 
-        <h2>感谢信</h2>
+        <h2>联系方式</h2>
         <p>
-          下面两个截图摘选自两名 Twitter
-          朋友的私信，能够帮助到更多的人一直是我的使命：
+          你可以通过以下途径联系到我们
+          加入交流群和我们一起侃大山，能够帮助到更多的人一直是CoXcommunity的使命：
         </p>
         <p className="grid items-center gap-4 lg:grid-cols-2">
           <Image
-            src={ThankYouLetterScreenshot1}
-            alt=""
-            className="max-w-full"
-          />
-          <Image
-            src={ThankYouLetterScreenshot2}
+            src={WX_group}
             alt=""
             className="max-w-full"
           />
